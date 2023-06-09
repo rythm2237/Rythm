@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="icon" type="image/x-icon" href="/final/favicon.png">
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./favicon.png" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#products" class="scroll-link">Products</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">tours</a>
+              </li>
+              <li>
+                <a href="#question" class="scroll-link">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>test project</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+            neque sunt in? Id, necessitatibus quos quisquam distinctio
+            laudantium fugiat?
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white">explore tours</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section class="section" id="about">
+      <div class="title">
+        <h2>About<span>Us</span></h2>
+        <h3 class="about-title">Raise Yourself To Help Mankind</h3>
+      </div>
+      <div class="about-center section-center" >
+        <article class="about-img">
+          <img src="/hero-bcg.jpeg" alt="about"/>
+        </article>
+        <article class="about">
+<!-- btn container part -->
+          <div class="btn-container">
+            <button class="tap-btn active"data-id="history">History</button>
+            <button class="tap-btn" data-id="vision">Vision</button>
+            <button class="tap-btn" data-id="goals">Goals</button>
+          </div>
+          <div class="about-content">
+<!--start about items -->
+            <div class="content active" id="history">
+                <h3>History</h3>
+                <p>I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard tilde try-hard, woke fixie banjo man bun. Small batch tumeric mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral direct trade hoodie ugh chambray, craft beer pork belly flannel tacos single-origin coffee art party migas plaid pop-up.</p>
+            </div>
+<!--end of about items -->
+<!--start about items -->
+            <div class="content" id="vision">
+                <h3>Vision</h3>
+                <p>I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard tilde try-hard, woke fixie banjo man bun. Small batch tumeric mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral direct trade hoodie ugh chambray, craft beer pork belly flannel tacos single-origin coffee art party migas plaid pop-up.</p>
+            </div>
+<!--end of about items -->
+<!--start about items -->
+            <div class="content" id="goals">
+                <h3>Goals</h3>
+                <p>I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard tilde try-hard, woke fixie banjo man bun. Small batch tumeric mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral direct trade hoodie ugh chambray, craft beer pork belly flannel tacos single-origin coffee art party migas plaid pop-up.</p>
+            </div>
+<!--end of about items -->
+          </div>
+        </article>
+      </div>
+    </section>
+    
+<!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+      </div>
+      <div class="container">
+        <div id="slider">
+          <div id="gal">
+          <div class="items">
+            <img src="img/slider/01.jpg">
+            
+          </div>
+          
+          <div class="items">
+            <img src="img/slider/02.jpg">
+            
+          </div>
+          
+          <div class="items">
+            <img src="img/slider/03.jpg">
+            
+          </div>
+          
+          <div class="items">
+            <img src="img/slider/04.jpg">
+            
+          </div>
+  
+          <div class="items">
+            <img src="img/slider/05.jpg">
+            
+          </div>
+        </div>
+            
+          <div id="right">  </div>
+          <div id="left">   </div>
+        
+        <ul>
+          <li></li>
+          <li onmouseover="move(0)">Web design</li>
+          <li onmouseover="move(1)">SEO</li>
+          <li onmouseover="move(2)">Web Developing</li>
+          <li onmouseover="move(3)">Digital Marketing</li>
+          <li onmouseover="move(4)">Social Media</li>
+        </ul>
+      </div>
+      </div> 
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section">
+      <div class="title">
+        <h2>Galery <span>Our Products</span></h2>
+      </div>
+
+      <div id="all" >
+        <div class="sut">
+            <!-- <div class="items" onclick="popup()">
+                <img src="img/1.jpg">
+                <div class="info">
+                    <h2>product1</h2>
+                    <p>Details</p>
+                    <span>15000 Ft</span>
+                    <a href="#">Buy</a>
+                </div>
+            </div> 
+        -->
+        </div>
+        <div class="sut"></div>
+        <div class="sut"></div>
+        <div class="sut"></div>
+    
+        <div id="overlay" class="hide" onclick="closeAll()">
+            <div id="pop" class="hide">
+                <img id="big_img" src="img/1.jpg">
+                <p>More Details</p>
+            </div>
+        </div>
+        
+    </div>
+    
+
+
+    </section>
+    <section id="tours" class="section">
+      <div class="title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+    </section>
+    
+    <section id="question" class="section">
+        <section class="questions">
+          <!-- title -->
+          <div class="title">
+            <h2>general <span>questions</span></h2>
+          </div>
+          <!-- questions -->
+          <div class="section-center-question">
+            <!-- single question -->
+            <article class="question">
+              <!-- question title -->
+              <div class="question-title">
+                <p>do you accept all major credit cards?</p>
+                <button type="button" class="question-btn">
+                  <span class="plus-icon">
+                    <i class="far fa-plus-square"></i>
+                  </span>
+                  <span class="minus-icon">
+                    <i class="far fa-minus-square"></i>
+                  </span>
+                </button>
+              </div>
+              <!-- question text -->
+              <div class="question-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                  repellat reprehenderit.
+                </p>
+              </div>
+            </article>
+            <!-- end of single question -->
+            <!-- single question -->
+            <article class="question">
+              <!-- question title -->
+              <div class="question-title">
+                <p>do you suppport local farmers?</p>
+                <button type="button" class="question-btn">
+                  <span class="plus-icon">
+                    <i class="far fa-plus-square"></i>
+                  </span>
+                  <span class="minus-icon">
+                    <i class="far fa-minus-square"></i>
+                  </span>
+                </button>
+              </div>
+              <!-- question text -->
+              <div class="question-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                  repellat reprehenderit.
+                </p>
+              </div>
+            </article>
+            <!-- end of single question -->
+            <!-- single question -->
+            <article class="question">
+              <!-- question title -->
+              <div class="question-title">
+                <p>do you use organic ingredients?</p>
+                <!-- button -->
+                <button type="button" class="question-btn">
+                  <span class="plus-icon">
+                    <i class="far fa-plus-square"></i>
+                  </span>
+                  <span class="minus-icon">
+                    <i class="far fa-minus-square"></i>
+                  </span>
+                </button>
+              </div>
+              <!-- question text -->
+              <div class="question-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  dolore illo dolores quia nemo doloribus quaerat, magni numquam
+                  repellat reprehenderit.
+                </p>
+              </div>
+            </article>
+            <!-- end of single question -->
+          </div>
+        </section>
+      
+    </section>
+      
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; backroads travel tours company
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
